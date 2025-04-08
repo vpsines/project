@@ -8,6 +8,7 @@ class CardData {
   final String latitude;
   final String longitude;
   final bool isDarkTheme;
+  final String? assetUrl;
 
   CardData({
     required this.type,
@@ -17,5 +18,6 @@ class CardData {
     required this.longitude,
     required this.isDarkTheme,
     required this.location,
+    this.assetUrl
   });
 }
